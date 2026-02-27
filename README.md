@@ -1,4 +1,4 @@
-## Hi there 👋
+##                                                                                                            Hi there 👋
  
  Hi! I'm a coder of riwi, i'm currently learning coding and english. I'm passionate about videogames and travel arround the world. I'm learning python actually. My goal is to become a professional developer and continuosly improve my technical skills, and in the future build real projects.
 <!--
