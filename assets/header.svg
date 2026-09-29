@@ -99,13 +99,13 @@
 
     <!-- Frases rotativas -->
     <g font-family="'Courier New', Consolas, monospace" font-size="16" fill="#a5b4fc" letter-spacing="2">
-      <text x="60" y="212" opacity="1">// BACKEND · APIs · POSTGRESQL
+      <text x="60" y="212" opacity="1">// BACKEND · FRONTEND · BASES DE DATOS · APIs
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.28;0.33;1" dur="9s" repeatCount="indefinite"/>
       </text>
-      <text x="60" y="212" opacity="0">// APRENDIENDO PYTHON + INGLÉS
+      <text x="60" y="212" opacity="0">// DESAROLLADOR JUNIOR · BILINGUE 
         <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.38;0.61;0.66;1" dur="9s" repeatCount="indefinite"/>
       </text>
-      <text x="60" y="212" opacity="0">// GAMER · VIAJERO · CONSTRUCTOR
+      <text x="60" y="212" opacity="0">// GAMER · VIAJERO · CURIOSO · LECTOR 
         <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.66;0.71;0.95;1" dur="9s" repeatCount="indefinite"/>
       </text>
     </g>
