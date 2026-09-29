@@ -64,8 +64,6 @@
 
 ## 📊 ESTADÍSTICAS
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=cxrls7&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cxrls7&layout=compact&theme=tokyonight&hide_border=true" />
 
 <br/>
 
@@ -95,32 +93,3 @@
 
 </div>
 
-<!--
-SERPIENTE (opcional): crea .github/workflows/snake.yml con:
-
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches: [main]
-permissions:
-  contents: write
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-Luego: Actions -> Generate Snake -> Run workflow
--->
