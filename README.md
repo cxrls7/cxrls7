@@ -84,8 +84,8 @@
 ## 📫 CONECTEMOS
 
 [![GitHub](https://img.shields.io/badge/GitHub-cxrls7-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cxrls7)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tu%20Nombre-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/carlos-molina-33a5bb300) -->
-[![Email](https://img.shields.io/badge/Email-tu%40correo.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](carlitos17abx@gmail.com) -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Carlos%20Molina-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-molina-33a5bb300)
+[![Email](https://img.shields.io/badge/Email-carlitos17abx%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:carlitos17abx@gmail.com)
 
 <br/>
 
