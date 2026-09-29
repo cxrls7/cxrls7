@@ -24,7 +24,7 @@
 ## ⚡ STACK TECNOLÓGICO
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=600&lines=Especialidad%3A+C%23+%2B+.NET;Backend+s%C3%B3lido+con+PostgreSQL;Frontend+para+completar+el+Full+Stack" alt="Typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=600&lines=Especialidad%3A+C%23+%2B+.NET;Backend+s%C3%B3lido;Bases+de+datos;Frontend+para+completar+el+Full+Stack" alt="Typing" />
 </a>
 
 ### 🔥 Núcleo
@@ -47,15 +47,44 @@
 
 ## 🚀 PROYECTO DESTACADO
 
-| 📦 **Firmeza — Módulo Administrativo Base** |
-|:--:|
-| Backend en **C# y .NET** con **PostgreSQL** |
-| Infraestructura · Panel administrativo · Productos · Clientes |
+### 📦 Firmeza — Plataforma de ventas full stack
+
+Sistema para un negocio de **materiales de construcción y alquiler de vehículos**. El administrador gestiona productos, clientes y ventas, y los clientes compran en línea y reciben su comprobante por correo.
+
+| Módulo | Qué hace | Tecnologías |
+|:--|:--|:--|
+| 🛠️ **Firmeza.Admin** | Panel administrativo: productos, clientes y ventas, carga masiva desde Excel, exportación a Excel/PDF y recibos en PDF | Razor Pages · EPPlus |
+| ⚙️ **Firmeza.API** | API REST con autenticación, roles (Administrador y Cliente), DTOs y documentación interactiva | ASP.NET Core · Identity · JWT · AutoMapper · Swagger |
+| 🛒 **Firmeza.Client** | SPA para clientes: registro, login, catálogo, carrito de compras y comprobante por correo | [React / Angular] · JWT |
+| 🧪 **Firmeza.Tests** | Pruebas unitarias de la lógica de negocio, ejecutadas antes de cada despliegue | xUnit |
+| 🐘 **Base de datos** | Almacenamiento compartido entre la API y el panel | PostgreSQL |
+
+**✨ Lo más destacado**
+
+- 🔐 Autenticación con **Identity + JWT** y un rol **Cliente** con políticas de autorización propias.
+- 📥 **Carga masiva desde Excel**: lee datos desnormalizados, los normaliza en memoria, valida campos obligatorios y genera un log de errores.
+- 🧾 **Recibos en PDF** al registrar cada venta, con datos del cliente, productos, totales e IVA.
+- 📧 **Comprobante por correo** con SMTP de Gmail, diseñado para cambiarlo por un servidor empresarial sin tocar la lógica.
+- 🐳 **Despliegue con un solo comando**: `docker compose up --build`. Primero corren las pruebas y, si alguna falla, no se levanta nada.
+
+**🔄 Flujo de despliegue**
+
+```mermaid
+flowchart LR
+    T["🧪 tests (xUnit)"] -->|si pasan| DB[("🐘 PostgreSQL")]
+    DB --> API["⚙️ Firmeza.API"]
+    API --> ADMIN["🛠️ Firmeza.Admin"]
+    API --> CLIENT["🛒 Firmeza.Client"]
+```
 
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
+[![Ver repositorio](https://img.shields.io/badge/Ver%20repositorio-Firmeza-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cxrls7/NOMBRE-DEL-REPO)
 </div>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
