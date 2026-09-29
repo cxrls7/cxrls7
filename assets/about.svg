@@ -68,7 +68,7 @@
       <text x="185" y="326" text-anchor="middle" font-size="13" fill="#7dd3fc" letter-spacing="1">GREMIO: RIWI</text>
       <text x="185" y="348" text-anchor="middle" font-size="13" fill="#7dd3fc" letter-spacing="1">ZONA: BARRANQUILLA, CO</text>
       <text x="185" y="372" text-anchor="middle" font-size="13" font-weight="700" fill="#FF2E97" letter-spacing="2">
-        ▸ NIVEL: SIEMPRE SUBIENDO
+        ▸ NIVEL: SIEMPRE MEJORANDO
         <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
       </text>
     </g>
@@ -76,12 +76,12 @@
     <!-- Atributos -->
     <text x="380" y="100" font-family="'Courier New', Consolas, monospace" font-size="16" font-weight="700" fill="#FF2E97" letter-spacing="3">▌ ATRIBUTOS</text>
     <g font-family="'Courier New', Consolas, monospace" font-size="14" font-weight="700" fill="#e2e8f0" letter-spacing="1">
-      <text x="380" y="142">C#</text>
-      <text x="380" y="182">.NET</text>
-      <text x="380" y="222">POSTGRESQL</text>
-      <text x="380" y="262">APIs REST</text>
-      <text x="380" y="302">PYTHON</text>
-      <text x="380" y="342">INGLÉS</text>
+      <text x="380" y="380">C#</text>
+      <text x="380" y="380">.NET</text>
+      <text x="380" y="380">BASES DE DATOS</text>
+      <text x="380" y="380">APIs REST</text>
+      <text x="380" y="380">ANGULAR//FRONTEND</text>
+      <text x="380" y="380">INGLÉS</text>
     </g>
     <g fill="#141a3d">
       <rect x="520" y="130" width="380" height="16" rx="8"/>
